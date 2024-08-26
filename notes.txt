@@ -1,0 +1,13 @@
+to hide password
+first install package python-dotenv
+or pip install python-dotenv
+create a file name is .env  save
+open .env file and write
+username=nsihaaa
+passw=493u934
+#in codebase file import
+import os
+from dotenv import load_dotenv
+# load envirment variable
+load_dotenv()
+password = os.getenv("passw")
